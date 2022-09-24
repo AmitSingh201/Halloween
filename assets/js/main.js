@@ -83,13 +83,13 @@ function scrollUp(){
     if(this.scrollY >= 460) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
-
+//in this sesion on diff screen is not responsive  so look at this code and do some testing. 2nd commit...
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2500,
-    delay: 400,
+    delay: 450,
     // reset: true
 })
 
